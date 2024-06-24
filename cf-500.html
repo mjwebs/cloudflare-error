@@ -11,31 +11,37 @@
 </head>
 ​
 
-<body class="antialiased-subpixel text-left layout-row">
-  <div class="w-full max-w-lg mx-auto mt-20 p-5">
-    <h2 class="font-bold text-sm text-red-600"></h2>
+<body class="antialiased-subpixel bg-gray-100 bg-gradient-to-r to-gray-100 from-gray-200">
+  <div class="w-full max-w-lg mx-auto mt-0 sm:mt-12 md:mt-20 lg:mt-28 p-4">
     <h1 class="font-bold text-2xl text-black">
-      We'll be right back
+      We'll be right back.
     </h1>
-    <p class="text-gray-900">
-      Our servers are currently getting a tune up and will be back up soon. We're sorry for the inconvenience!
+    <p class="mt-1 text-gray-700 tracking-tight">
+      Our servers are currently getting a tune-up and will be back up soon. We're sorry for the inconvenience!
     </p>
-    <p class="hidden text-gray-900 text-base">
+    <p class="hidden mt-2 text-gray-900 text-base tracking-tight">
       If the issue persists, please open a
-      <a class="text-blue-600" href="mailto:support@mjwebs.io?subject=Internal Error | Ray ID:::RAY_ID::&body=Describe issue here...">
+      <a class="text-blue-600" href="mailto:support@mjwebs.com?subject=Internal Error | Ray ID:::RAY_ID::&body=Describe what you were doing when you noticed this error...">
         support ticket.
       </a>
     </p>
-    <div class="text-gray-400 pt-4 text-sm">
-      <span>
-        ::CLOUDFLARE_ERROR_500S_BOX::
-      </span>
-      <p>
-        Ray ID: ::RAY_ID::
-      </p>
-      <p>
-        Client IP: ::CLIENT_IP::
-      </p>
+    <div class="pt-6">
+      <div class="p-5 shadow overflow-hidden rounded-lg bg-gray-50">
+        <p class="text-xs tracking-tight text-gray-600 font-medium">
+          Technical Details
+        </p>
+        <div class="mt-2">
+          <p class="text-gray-400 text-sm">
+            ::CLOUDFLARE_ERROR_500S_BOX::
+          </p>
+          <p class="text-gray-400 text-sm">
+            Ray ID: ::RAY_ID::
+          </p>
+          <p class="text-gray-400 text-sm">
+            Client IP: ::CLIENT_IP::
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </body>
