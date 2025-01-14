@@ -4,23 +4,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Attention Required!</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.6/tailwind.min.css" integrity="sha512-l7qZAq1JcXdHei6h2z8h8sMe3NbMrmowhOl+QkP3UhifPpCW2MC4M0i26Y8wYpbz1xD9t61MLT9L1N773dzlOA==" crossorigin="anonymous" />
+  <title>
+    Attention Required
+  </title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-​
 
-<body class="antialiased-subpixel text-left layout-row">
-  <div class="w-full max-w-lg mx-auto mt-20 p-5">
-    <span class="font-thin text-3xl text-red-600"><span class="font-normal">403</span> Forbidden</span>
+<body class="antialiased-subpixel bg-gray-100 bg-gradient-to-r to-gray-100 from-gray-200">
+  <div class="w-full max-w-lg mx-auto mt-0 sm:mt-12 md:mt-20 lg:mt-28 p-4">
+    <h1 class="font-bold text-2xl text-black">
+      Access Denied
+    </h1>
+    <p class="mt-1 text-gray-700 tracking-tight">
+      Your request has been blocked. If you believe this was done in error please contact the site owner.
+    </p>
 
+    <div class="pt-6">
+      <div class="p-5 shadow overflow-hidden rounded-lg bg-gray-50">
+        <p class="text-xs tracking-tight text-gray-600 font-medium">
+          Technical Details
+        </p>
+        <div class="mt-2 text-gray-400 text-sm">
 
-
-    <p class="text-gray-900">You do not have permission to view this website.</p>
-    <p class="text-gray-600">If you believe this to be an error, please open a <a href="mailto:support@mjwebs.io?subject=Forbidden Access | Ray ID:::RAY_ID::&body=Describe issue here...">support ticket.</a></p>
-
-    <div class="text-gray-400 pt-2">
-      <p>Ray ID: ::RAY_ID::</p>
-      <p>Client IP: ::CLIENT_IP::</p>
+          <div class="text-gray-400 text-sm">
+            <p>
+              Ray ID: ::RAY_ID::
+            </p>
+            <p>
+              Client IP: ::CLIENT_IP::
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
